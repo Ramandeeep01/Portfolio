@@ -7,7 +7,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row justify-between items-start gap-12 lg:gap-20 mt-8">
 
                 {/* Left Side */}
-                <div>
+                <div className="w-full lg:w-auto">
 
                     <p className="text-[12px] uppercase tracking-[4px] text-gray-500 mb-8">
                         • ABOUT ME
@@ -21,11 +21,11 @@ const About = () => {
                 </div>
 
                 {/* Right Side */}
-                <div className="w-full lg:w-auto flex justify-center">
+                <div className="w-full lg:w-auto flex justify-center lg:justify-end">
 
-                    <div className="w-full max-w-[420px] bg-white border border-gray-200 lg:-mt-[60px] rounded-[24px] p-6 lg:p-8 shadow-sm">
+                    <div className="w-full max-w-[420px] bg-white border border-gray-200 rounded-[24px] p-6 lg:p-8 shadow-sm lg:-mt-[60px]">
 
-                        <p className="text-gray-600 leading-7 lg:leading-8 text-[15px]">
+                        <p className="text-gray-600 text-[15px] leading-7 lg:leading-8">
                             I'm a passionate Full Stack MERN Developer currently pursuing a Bachelor
                             of Computer Applications. I enjoy building scalable web applications with
                             clean architecture, modern technologies, and responsive user interfaces.

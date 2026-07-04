@@ -4,19 +4,19 @@ const Navbar = () => {
     return (
         <div className="w-full">
 
-            <hr className="w-[95%] max-w-[1130px] h-[3px] bg-black border-0 mx-auto mt-2" />
+            <hr className="w-[95%] max-w-[1130px] h-[3px] bg-black border-0 mx-auto" />
 
-            <div className="flex flex-col lg:flex-row items-center ml-[5px] justify-between w-[95%] max-w-[1130px] mx-auto mt-4">
+            <div className="flex flex-col lg:flex-row items-center justify-between w-[95%] max-w-[1130px] mx-auto mt-4">
 
                 {/* Logo */}
-                <div>
-                    <h1 className="text-2xl font-bold ml-6 bg-[#FFFFFF] inline-block px-4 py-2 shadow-[0_0_20px_rgba(0,0,0,0.12)] rounded-[10px]">
+                <div className="self-center lg:self-auto lg:ml-[5px]">
+                    <h1 className="text-2xl font-bold lg:ml-6 bg-[#FFFFFF] inline-block px-4 py-2 shadow-[0_0_20px_rgba(0,0,0,0.12)] rounded-[10px]">
                         Raman
                     </h1>
                 </div>
 
                 {/* Navigation */}
-                <div className="flex flex-wrap justify-center gap-6 md:gap-8 mt-6 lg:mt-0 text-lg font-medium">
+                <div className="flex flex-wrap justify-center gap-6 md:gap-8 mt-6 lg:mt-0 lg:mr-[25px] text-lg font-medium">
 
                     <div className="relative group cursor-pointer">
                         <h1

@@ -4,7 +4,8 @@ const Skills = () => {
     return (
         <section className="bg-[#F8F6F3] py-16 lg:py-24">
 
-            <div className="text-center lg:-mt-[120px] px-4">
+            {/* Heading */}
+            <div className="text-center px-4 mt-[-100px] mb-12">
                 <h1 className="text-4xl sm:text-5xl lg:text-[55px] font-bold uppercase tracking-tight text-black">
                     My Tech Stack
                 </h1>
@@ -14,13 +15,13 @@ const Skills = () => {
                 </p>
             </div>
 
-            <div className="mt-12 flex flex-col items-center gap-2 px-4">
+            {/* Cards */}
+            <div className="flex flex-col items-center gap-4 px-4">
 
                 {/* Card 1 */}
                 <div className="w-full max-w-[900px] bg-white border border-gray-200 rounded-[24px] px-6 lg:px-8 py-5 flex flex-col lg:flex-row lg:items-center justify-between gap-6 shadow-sm">
 
                     <div className="flex items-start gap-5">
-
                         <div className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
                             <div className="w-2.5 h-2.5 rounded-full bg-black"></div>
                         </div>
@@ -36,7 +37,6 @@ const Skills = () => {
                                 performance and user experience.
                             </p>
                         </div>
-
                     </div>
 
                     <div className="bg-[#F5F5F5] rounded-xl px-5 py-2 self-start lg:self-center">
@@ -55,7 +55,6 @@ const Skills = () => {
                 <div className="w-full max-w-[900px] bg-white border border-gray-200 rounded-[24px] px-6 lg:px-8 py-5 flex flex-col lg:flex-row lg:items-center justify-between gap-6 shadow-sm">
 
                     <div className="flex items-start gap-5">
-
                         <div className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
                             <div className="w-2.5 h-2.5 rounded-full bg-black"></div>
                         </div>
@@ -71,7 +70,6 @@ const Skills = () => {
                                 maintainability.
                             </p>
                         </div>
-
                     </div>
 
                     <div className="bg-[#F5F5F5] rounded-xl px-5 py-2 self-start lg:self-center">
@@ -90,7 +88,6 @@ const Skills = () => {
                 <div className="w-full max-w-[900px] bg-white border border-gray-200 rounded-[24px] px-6 lg:px-8 py-5 flex flex-col lg:flex-row lg:items-center justify-between gap-6 shadow-sm">
 
                     <div className="flex items-start gap-5">
-
                         <div className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
                             <div className="w-2.5 h-2.5 rounded-full bg-black"></div>
                         </div>
@@ -106,7 +103,6 @@ const Skills = () => {
                                 applications.
                             </p>
                         </div>
-
                     </div>
 
                     <div className="bg-[#F5F5F5] rounded-xl px-5 py-2 self-start lg:self-center">
@@ -125,7 +121,6 @@ const Skills = () => {
                 <div className="w-full max-w-[900px] bg-white border border-gray-200 rounded-[24px] px-6 lg:px-8 py-5 flex flex-col lg:flex-row lg:items-center justify-between gap-6 shadow-sm">
 
                     <div className="flex items-start gap-5">
-
                         <div className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center flex-shrink-0">
                             <div className="w-2.5 h-2.5 rounded-full bg-black"></div>
                         </div>
@@ -141,7 +136,6 @@ const Skills = () => {
                                 software.
                             </p>
                         </div>
-
                     </div>
 
                     <div className="bg-[#F5F5F5] rounded-xl px-5 py-2 self-start lg:self-center">
@@ -152,13 +146,13 @@ const Skills = () => {
                         <h3 className="text-[15px] font-semibold text-black mt-1">
                             TypeScript • Next.js • Docker • PostgreSQL • AWS
                         </h3>
-
                     </div>
 
                 </div>
 
             </div>
 
+            {/* Bottom Strip */}
             <div className="mt-20 w-full bg-black py-6 px-4 overflow-hidden">
 
                 <p className="text-white text-xs sm:text-sm uppercase tracking-[2px] sm:tracking-[3px] text-center leading-7">

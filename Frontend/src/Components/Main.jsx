@@ -3,7 +3,7 @@ import raman from "../Images/raman.jpeg";
 
 const Main = () => {
     return (
-        <div className="mt-[10px] flex flex-col-reverse lg:flex-row items-center justify-between w-[95%] max-w-[1130px] mx-auto gap-10 lg:gap-0">
+        <div className="mt-[10px] pb-16 lg:pb-0 flex flex-col-reverse lg:flex-row items-center justify-between w-[95%] max-w-[1130px] mx-auto gap-10 lg:gap-0">
 
             {/* Left Content */}
             <div className="w-full lg:w-1/2">
@@ -34,30 +34,23 @@ const Main = () => {
                 </div>
 
                 {/* Name */}
-
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl scale-y-105 mt-8 font-bold text-black leading-[0.9]">
                     RAMAN <br />
                     DEEP SINGH
                 </h1>
 
                 {/* Divider */}
-
                 <div className="w-full mt-8">
                     <hr className="border-gray-200" />
                 </div>
 
                 {/* Skills */}
-
                 <div className="flex flex-col sm:flex-row gap-8 mt-8">
 
-                    {/* Frontend */}
-
                     <div className="flex gap-3 flex-1">
-
                         <span className="text-xl mt-1">•</span>
 
                         <div>
-
                             <h3 className="text-[12px] font-semibold text-black">
                                 Frontend Development
                             </h3>
@@ -66,19 +59,13 @@ const Main = () => {
                                 Building responsive and modern user interfaces with
                                 React.js, Tailwind CSS, JavaScript, and Vite.
                             </p>
-
                         </div>
-
                     </div>
 
-                    {/* Backend */}
-
                     <div className="flex gap-3 flex-1">
-
                         <span className="text-xl mt-1">•</span>
 
                         <div>
-
                             <h3 className="text-[12px] font-semibold text-black">
                                 Backend Development
                             </h3>
@@ -87,9 +74,7 @@ const Main = () => {
                                 Building secure REST APIs and backend applications
                                 using Node.js, Express.js, and MongoDB.
                             </p>
-
                         </div>
-
                     </div>
 
                 </div>
@@ -97,15 +82,12 @@ const Main = () => {
             </div>
 
             {/* Right Image */}
-
             <div className="w-full lg:w-1/2 flex justify-center">
-
                 <img
                     src={raman}
                     alt="Raman Deep Singh"
-                    className="w-full sm:max-w-[400px] lg:max-w-[500px] object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)]"
+                    className="w-full max-w-[400px] lg:max-w-[500px] object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)]"
                 />
-
             </div>
 
         </div>

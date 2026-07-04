@@ -8,12 +8,12 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-[#F8F6F3] pt-24 pb-10">
+        <footer className="bg-[#F8F6F3] pt-16 lg:pt-24 pb-10">
 
             <div className="w-[95%] max-w-6xl mx-auto px-4 lg:px-8">
 
                 {/* Top Divider */}
-                <div className="border-t-2 border-black pt-16">
+                <div className="border-t-2 border-black pt-10 lg:pt-16">
 
                     <div className="flex flex-col lg:flex-row justify-between items-start gap-10">
 
@@ -31,13 +31,14 @@ const Footer = () => {
                         </div>
 
                         {/* Contact */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 w-full lg:w-auto">
 
                             <a
                                 href="mailto:ramanxramanxraman@gmail.com"
                                 className="flex items-center gap-3 text-gray-700 hover:text-black transition"
                             >
-                                <FaEnvelope size={18} />
+                                <FaEnvelope className="flex-shrink-0" size={18} />
+
                                 <span className="break-all">
                                     ramanxramanxraman@gmail.com
                                 </span>
@@ -47,8 +48,11 @@ const Footer = () => {
                                 href="tel:8968948012"
                                 className="flex items-center gap-3 text-gray-700 hover:text-black transition"
                             >
-                                <FaPhoneAlt size={17} />
-                                <span>+91 89689 48012</span>
+                                <FaPhoneAlt className="flex-shrink-0" size={17} />
+
+                                <span>
+                                    +91 89689 48012
+                                </span>
                             </a>
 
                             <a
@@ -57,8 +61,11 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-3 text-gray-700 hover:text-black transition"
                             >
-                                <FaGithub size={19} />
-                                <span>GitHub</span>
+                                <FaGithub className="flex-shrink-0" size={19} />
+
+                                <span>
+                                    GitHub
+                                </span>
                             </a>
 
                             <a
@@ -67,8 +74,11 @@ const Footer = () => {
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-3 text-gray-700 hover:text-black transition"
                             >
-                                <FaLinkedin size={19} />
-                                <span>LinkedIn</span>
+                                <FaLinkedin className="flex-shrink-0" size={19} />
+
+                                <span>
+                                    LinkedIn
+                                </span>
                             </a>
 
                         </div>
