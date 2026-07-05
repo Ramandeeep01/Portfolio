@@ -5,14 +5,14 @@ const Main = () => {
     return (
         <div className="mt-[10px] pb-16 lg:pb-0 flex flex-col-reverse lg:flex-row items-center justify-between w-[95%] max-w-[1130px] mx-auto gap-10 lg:gap-0">
 
-            {/* Left Content */}
-            <div className="w-full lg:w-1/2">
+            {/* ================= DESKTOP ================= */}
+            <div className="hidden lg:block w-full lg:w-1/2">
 
                 {/* Role */}
-                <div className="flex items-start sm:items-center gap-4">
+                <div className="flex items-center gap-4">
 
                     <svg
-                        className="w-[45px] sm:w-[55px] flex-shrink-0"
+                        className="w-[55px] flex-shrink-0"
                         role="img"
                         viewBox="0 0 24 24"
                         xmlns="http://www.w3.org/2000/svg"
@@ -22,36 +22,32 @@ const Main = () => {
                     </svg>
 
                     <div>
-                        <p className="text-sm text-gray-500">
-                            MERN Stack
-                        </p>
-
-                        <h2 className="text-lg sm:text-xl font-semibold text-black">
+                        <p className="text-sm text-gray-500">MERN Stack</p>
+                        <h2 className="text-xl font-semibold text-black">
                             Full Stack Developer
                         </h2>
                     </div>
 
                 </div>
 
-                {/* Name */}
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl scale-y-105 mt-8 font-bold text-black leading-[0.9]">
+                <h1 className="text-6xl scale-y-105 mt-8 font-bold text-black leading-[0.9]">
                     RAMAN <br />
                     DEEP SINGH
                 </h1>
 
-                {/* Divider */}
                 <div className="w-full mt-8">
                     <hr className="border-gray-200" />
                 </div>
 
-                {/* Skills */}
-                <div className="flex flex-col sm:flex-row gap-8 mt-8">
+                <div className="flex gap-8 mt-8">
 
                     <div className="flex gap-3 flex-1">
+
                         <span className="text-xl mt-1">•</span>
 
                         <div>
-                            <h3 className="text-[12px] font-semibold text-black">
+
+                            <h3 className="text-[12px] font-semibold">
                                 Frontend Development
                             </h3>
 
@@ -59,14 +55,18 @@ const Main = () => {
                                 Building responsive and modern user interfaces with
                                 React.js, Tailwind CSS, JavaScript, and Vite.
                             </p>
+
                         </div>
+
                     </div>
 
                     <div className="flex gap-3 flex-1">
+
                         <span className="text-xl mt-1">•</span>
 
                         <div>
-                            <h3 className="text-[12px] font-semibold text-black">
+
+                            <h3 className="text-[12px] font-semibold">
                                 Backend Development
                             </h3>
 
@@ -74,20 +74,74 @@ const Main = () => {
                                 Building secure REST APIs and backend applications
                                 using Node.js, Express.js, and MongoDB.
                             </p>
+
                         </div>
+
                     </div>
 
                 </div>
 
             </div>
 
-            {/* Right Image */}
-            <div className="w-full lg:w-1/2 flex justify-center">
+            {/* ================= IMAGE ================= */}
+            <div className="w-full lg:w-1/2 flex flex-col items-center">
+
                 <img
                     src={raman}
                     alt="Raman Deep Singh"
                     className="w-full max-w-[400px] lg:max-w-[500px] object-cover shadow-[0_0_20px_rgba(0,0,0,0.12)]"
                 />
+
+                {/* MOBILE CONTENT */}
+                <div className="lg:hidden w-full text-center mt-6">
+
+                    <p className="text-sm text-gray-500">
+                        MERN Stack
+                    </p>
+
+                    <h2 className="text-xl font-semibold text-black mt-1">
+                        Full Stack Developer
+                    </h2>
+
+                    <h1 className="text-4xl font-bold leading-[0.9] mt-6">
+                        RAMAN <br />
+                        DEEP SINGH
+                    </h1>
+
+                    <hr className="border-gray-300 my-8" />
+
+                    <div className="grid grid-cols-2 gap-6 text-left">
+
+                        <div>
+
+                            <h3 className="text-[12px] font-semibold text-black">
+                                Frontend Development
+                            </h3>
+
+                            <p className="text-[11px] text-gray-500 leading-relaxed mt-2">
+                                Building responsive and modern user interfaces with
+                                React.js, Tailwind CSS, JavaScript, and Vite.
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <h3 className="text-[12px] font-semibold text-black">
+                                Backend Development
+                            </h3>
+
+                            <p className="text-[11px] text-gray-500 leading-relaxed mt-2">
+                                Building secure REST APIs and backend applications
+                                using Node.js, Express.js, and MongoDB.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
