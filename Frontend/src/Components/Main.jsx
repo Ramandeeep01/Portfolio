@@ -104,8 +104,7 @@ const Main = () => {
                     </h2>
 
                     <h1 className="text-4xl font-bold leading-[0.9] mt-6">
-                        RAMAN <br />
-                        DEEP SINGH
+                        RAMANDEEP <br /> SINGH
                     </h1>
 
                     <hr className="border-gray-300 my-8" />

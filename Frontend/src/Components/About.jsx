@@ -33,9 +33,11 @@ const About = () => {
                             continuously learning and growing as a developer.
                         </p>
 
-                        <button className="mt-8 bg-black text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-zinc-800 transition-all duration-300">
-                            Connect with Developer →
-                        </button>
+                        <a href="/Raman-Resume.pdf" download>
+                            <button className="mt-8 bg-black text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-zinc-800 transition-all duration-300">
+                                Download Resume →
+                            </button>
+                        </a>
 
                     </div>
 
